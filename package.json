@@ -1,0 +1,32 @@
+{
+  "name": "ibex-limosa",
+  "version": "1.0.0",
+  "description": "router limosa in ibex",
+  "scripts": {
+    "test": "make test",
+    "lint": "make lint",
+    "build": "make build",
+    "postpublish": "make post-publish",
+    "preversion": "make pre-version",
+    "version": "make version",
+    "watch": "make watch"
+  },
+  "repository": "alpjs/ibex-limosa",
+  "keywords": [
+    "alp",
+    "ibex"
+  ],
+  "author": "Christophe Hurpeau <christophe@hurpeau.com> (http://christophe.hurpeau.com/)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alpjs/ibex-limosa/issues"
+  },
+  "homepage": "https://github.com/alpjs/ibex-limosa#readme",
+  "dependencies": {
+    "alp-limosa": "^1.0.0"
+  },
+  "peerDependencies": {
+    "ibex-config": "^1.0.0",
+    "ibex-language": "^1.0.0"
+  }
+}
