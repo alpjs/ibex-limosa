@@ -2,15 +2,6 @@
   "name": "ibex-limosa",
   "version": "1.0.0",
   "description": "router limosa in ibex",
-  "scripts": {
-    "test": "make test",
-    "lint": "make lint",
-    "build": "make build",
-    "postpublish": "make post-publish",
-    "preversion": "make pre-version",
-    "version": "make version",
-    "watch": "make watch"
-  },
   "repository": "alpjs/ibex-limosa",
   "keywords": [
     "alp",
@@ -23,7 +14,7 @@
   },
   "homepage": "https://github.com/alpjs/ibex-limosa#readme",
   "dependencies": {
-    "alp-limosa": "^1.0.0"
+    "alp-limosa": "^2.0.0"
   },
   "peerDependencies": {
     "ibex-config": "^1.0.0",
